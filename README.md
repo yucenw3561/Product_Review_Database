@@ -15,9 +15,10 @@ This project is an Oracle database-backed application for managing products, use
 - `sql/sample_data.sql` - INSERT statements with representative sample data
 - `sql/reset.sql` - Script to reset database objects
 - `sql/Test.sql` - Validation and testing queries
-- `docs/diagrams/` - ER diagram and schema visuals
+- `sql/Analysis.sql` - Analysis queries
+- `images/ERD diagram.png` - ER diagram 
+- `images/` - Screenshots of successful execution
 - `docs/report/` - Final report in DOCX/PDF format
-- `docs/screenshots/` - Screenshots of successful execution
 - `notes/` - Business rules and design notes
 
 ## Execution Order
