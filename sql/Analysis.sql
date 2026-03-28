@@ -64,7 +64,8 @@ ORDER BY total_reviews DESC;
 
 -- 6. Products with no reviews yet
 SELECT p.product_id,
-       p.product_name
+       p.product_name,
+       r.review_id
 FROM products p
 LEFT JOIN reviews r
     ON p.product_id = r.product_id
